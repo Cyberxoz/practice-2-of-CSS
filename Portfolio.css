@@ -6,7 +6,7 @@ body {
 }
 
 h3 {
-    text-align: justify;
+    text-align: center;
     margin: 50px;
     margin-bottom: 10px;
     line-height: 1.7%;
@@ -14,16 +14,22 @@ h3 {
     font-weight: 100;
     font-style: normal;
     font-size: 20px;
+    position: relative;
+    right: 120px;
+    top: 20px;
 }
 
 h1 {
-    text-align: justify;
+    text-align: center;
     margin: 20px;
     padding: 5px;
     font-family: "Viaoda Libre", serif;
     font-weight: 600;
     font-style: normal;
     font-size: 50px;
+    position: relative;
+    right: 90px;
+    top: 30px;
 }
 
 nav {
@@ -44,16 +50,12 @@ nav a {
 img {
     border-radius: 300px;
     position: relative;
-    left: 250px;
+    left: 300px;
     bottom: 40px;
-    /* filter: blur();
-    filter: contrast();
-    filter: drop-shadow(); */
-
 }
 
 p {
-    
+
     font-size: 17px;
     font-family: "Cause", cursive;
     font-weight: 400;
@@ -61,17 +63,20 @@ p {
     width: 200px;
     height: 40px;
     border: hidden;
-   position: relative;
-   right: 200px;
-   top: 25px;
+    position: relative;
+    right: 200px;
+    top: 25px;
 }
-.container{
+
+.container {
     display: flex;
+    justify-content: center;
 }
-#set{
+
+#set {
     width: 200px;
     height: 50px;
-    position:relative ;
+    position: relative;
     top: 330px;
     right: 360px;
     border-radius: 30px;
@@ -79,9 +84,32 @@ p {
     font-size: 15px;
     border-color: aliceblue;
     box-shadow: 0px 2px 2px white;
-    font-family:"Milonga", serif;
+    font-family: "Milonga", serif;
     font-weight: 500;
 
 }
 
+h2 {
 
+    font-size: 50px;
+    font-family: "Viaoda Libre", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.Project {
+    text-align: center;
+
+
+}
+
+#Pro {
+    width: 500px;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-size: 30px;
+    margin: 10px;
+    padding: 20px;
+
+}
